@@ -620,7 +620,7 @@ span {
   }
 
   .home {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .home-content h3 {
