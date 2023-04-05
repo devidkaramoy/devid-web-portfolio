@@ -557,10 +557,10 @@ span {
   section {
     padding: 10rem 3% 2rem;
   }
-  .services {
+  .skills {
     padding-bottom: 7rem;
   }
-  .portfolio {
+  .projects {
     padding-bottom: 7rem;
   }
   .contact {
@@ -688,18 +688,18 @@ span {
     width: 39vh;
   }
 
-  .services h2,
-  .portfolio h2 {
+  .skills h2,
+  .projects h2 {
     margin-bottom: 3rem;
   }
 
-  .portfolio .portfolio-container {
+  .projects .projects-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 617px) {
-  .portfolio .portfolio-container {
+  .projects .projects-container {
     grid-template-columns: 1fr;
   }
 }
